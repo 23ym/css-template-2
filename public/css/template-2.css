@@ -52,7 +52,7 @@
 
 .header_nav_right {
     margin-left: auto ;
-    width: fit-content;
+    width: max-content ;
 }
 
 .page_block:not(:last-child) {
