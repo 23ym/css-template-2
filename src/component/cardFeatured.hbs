@@ -1,1 +1,11 @@
-
+<div class="card_articles">
+    <div class="image-container">
+        <img src="{{photo}}" class="card_photo">
+        {{#if isNew}}
+        <span class="badge_card_articles">NEW</span>
+        {{/if}}
+    </div>
+    <h2 class="card_title">{{name}}</h2>
+    <p class="card_text">{{description}}</p>
+    <a href="{{button.url}}" class="card_button">Read All</a>
+</div>
